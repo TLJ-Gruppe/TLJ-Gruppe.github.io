@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Campus Rotenbühl</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+
+}
+
+.menu {
+  display: none;
+}
+</style>EingangWest
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="Index-Wegweiser.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="Galerie.html" class="w3-button w3-block w3-black">GALERIE</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="MenSaar.html" class="w3-button w3-block w3-black">MenSaar</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="AGB-Impressum.html" class="w3-button w3-block w3-black">RECHTLICHES</a>
+    </div>
+  </div>
+</div>
+
+<div>
+<h5>
+Hallo welt
+</h5>
+</div>
+
+<div>
+<h2>
+<center>
+<b>htw saar</b> Campus Rotenbühl
+</h2>
+</div>
+
+
+
+ <!-- Image header -->
+ <div class="w3-display-container w3-container">
+ <center>
+  <img src="plan.png" alt="plan.png" style="width:80%" align="middle">
+  </div>
+
+<!-- Google Maps -->
+
+
+
+
+<!-- About Container -->
+<!-- Google Maps -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Über den Campus Rotenbühl</span></h5>
+    <p>Der HTW-Saar Campus Rotenbühl liegt idyllisch im Waldhausweg 14 in Saarbrücken. Mit modernen Lehr- und Forschungseinrichtungen bietet der Campus eine inspirierende Umgebung für Studierende. Die grüne Lage und die gut ausgestatteten Räumlichkeiten schaffen eine angenehme Lernatmosphäre.</p>
+    <p>Die HTW-Saar hat den Campus Rotenbühl mit besonderem Augenmerk auf Barrierefreiheit und Inklusion gestaltet. Durch die Planung und Umsetzung von barrierefreien Zugängen und Einrichtungen bietet der Campus eine inklusive Umgebung, die allen Studenten gleichermaßen zugänglich ist.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><b>Unsere Öffnungszeiten:</b></p>
+      <p>Montag bis Freitag: 6:30 Uhr bis 19:00 Uhr</p>
+	  <p>Samstag: 7:30 Uhr bis 16:00 Uhr (Gebäude E geschlossen)</p>
+    </div>
+	<center>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.7382696733544!2d7.012155776185398!3d49.24345127353185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4795b699ef50b3bb%3A0x927b6bb116be3f97!2sWaldhausweg%2014%2C%2066123%20Saarbr%C3%BCcken!5e0!3m2!1sde!2sde!4v1700145967215!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><b>Keine Möglichkeit uns Vorort zu besuchen?</b></p>
+      <p>Kein Problem! Erkunde den Campus gemütlich von Daheim aus!</p>
+	 <a href="http://www.pano.web-3d.info/tourHTWCampusRotenbuehl/htwCampusRotenbuehl-V01.php" <p>Zum virtuellen Rundgang</p> </a>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Kontakt/Support -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Kontaktiere uns!</span></h5>
+    <img src="Campus2.jpeg" class="w3-image" style="width:100%">
+    <p>Du hast noch weitere Fragen bezüglich des Campus?</p>
+    <p><strong>Schreibe</strong> uns eine Mail mit deinem Anliegen:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Matrikelnummer" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Deine E-Mail" required name="name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Deine Nachricht" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">ABSENDEN</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.htwsaar.de/en/htw-saar/campus/campus-rotenbuehl" title="W3.CSS" target="_blank" class="w3-hover-text-green">TLJ-Projektmanagement</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
