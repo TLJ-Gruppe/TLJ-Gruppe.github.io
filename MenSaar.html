@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Campus Rotenbühl</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="Index-Wegweiser.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="Galerie.html" class="w3-button w3-block w3-black">GALERIE</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="MenSaar.html" class="w3-button w3-block w3-black">MenSaar</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="AGB-Impressum.html" class="w3-button w3-block w3-black">RECHTLICHES</a>
+    </div>
+  </div>
+</div>
+
+<div>
+<h2>
+Hallo welt
+</h2>
+</div>
+
+<div>
+<h2>
+<center>
+<b>MenSaar</b>
+</h2>
+</div>
+
+
+
+
+<!-- MenSaar -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ <center>
+   
+  <p>Um stehts konzentriert arbeiten zu können braucht man nicht nur Studentenfutter! Die Mensaar bietet von Montag bis Freitag die möglichkeit sich ausgewogen zu ernähren! Hier findet jeder das passende Menü zu fairen Preisen!</p>
+  <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><b>Die Öffnungszeiten der MenSaar:</b></p>
+	  <p>Warme Mahlzeiten:</p>
+      <p>Montag bis Freitag: 11:00 Uhr bis 14:30 Uhr</p>
+	  <p>Snack´s, Heiß- und Kaltgetränke:</p>
+	  <p>Montag bis Freitag: 7:45 Uhr bis 15:30 Uhr</p>
+	 <a href="https://mensaar.de/#/menu/htwcrb" <p>Zum Speiseplan</p> </a>
+    </div>
+    
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.htwsaar.de/en/htw-saar/campus/campus-rotenbuehl" title="W3.CSS" target="_blank" class="w3-hover-text-green">TLJ-Projektmanagement</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

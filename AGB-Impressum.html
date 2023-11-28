@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Campus Rotenbühl</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="Index-Wegweiser.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="Galerie.html" class="w3-button w3-block w3-black">GALERIE</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="MenSaar.html" class="w3-button w3-block w3-black">MenSaar</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="AGB-Impressum.html" class="w3-button w3-block w3-black">RECHTLICHES</a>
+    </div>
+  </div>
+</div>
+
+<div>
+<h2>
+Hallo welt
+</h2>
+</div>
+
+<div>
+<h2>
+<center>
+<b>DISCLAIMER</b>
+</h2>
+</div>
+
+<center>
+<p>Diese Website ist eine fiktive Projektarbeit im Kontext einer Lehrveranstaltung der HTW-Saar.</p>
+<p>Alle Inhalte und Rechte dieser Website obliegen der HTW-Saar.</p>
+</center>
+
+
+
+
+
+
+<!-- About Container -->
+<!-- Google Maps -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Impressum (Laut &sect;5 TMG):</span></h5>
+	
+<!-- Impressum Feld -->
+<center>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><b>Hochschule für Technik und Wirtschaft des Saarlandes</b></p>
+      <p>Goebenstraße 40, 66117 Saarbrücken</p>
+	  <p>Telefon: (0681) XX XX - X</p>
+	  <p>Telefax: (0681) XX XX - XXX</p>
+	  <p>E-Mail: info@xxx-xxxx.xx</p>
+	  <p>Körperschaft des öffentlichen Rechts</p>
+	  <p>Vertreten durch XYZ</p>
+    </div>
+	 <img src="Campus2.jpeg" class="w3-image" style="width:100%">
+    
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.htwsaar.de/en/htw-saar/campus/campus-rotenbuehl" title="W3.CSS" target="_blank" class="w3-hover-text-green">TLJ-Projektmanagement</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
